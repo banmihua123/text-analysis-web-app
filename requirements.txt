@@ -1,0 +1,23 @@
+# Python libraries required for the project
+
+# For text analysis and processing
+nltk==3.7  # Natural Language Toolkit, 用于文本处理和分析
+spacy==3.4.0  # Industrial-strength Natural Language Processing, 用于高级文本分析
+textblob==0.17.1  # Simple library for processing textual data, 用于简单的文本处理
+
+# For data manipulation and analysis
+pandas==1.4.3  # Data manipulation and analysis tool, 用于数据处理和分析
+numpy==1.22.3  # Fundamental package for scientific computing with Python, 用于科学计算
+
+# For web applications and APIs
+streamlit==1.5.0  # The fastest way to create and share data apps, 用于创建Web应用
+flask==2.0.3  # A lightweight WSGI web application framework, 用于创建Web应用的后端
+requests==2.27.1  # HTTP library for Human Beings, 用于发送HTTP请求
+
+# For visualization
+matplotlib==3.5.1  # Plotting library, 用于数据可视化
+seaborn==0.11.2  # Statistical data visualization, 基于matplotlib的更高层次的数据可视化库
+plotly==5.6.0  # Interactive, browser-based charts for Python, 用于创建交互式图表
+
+# Your specific dependency
+pywin32==308  # Windows extensions for Python, 如果你确实需要这个库的话
