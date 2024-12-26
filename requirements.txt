@@ -1,13 +1,8 @@
-# Python libraries required for the project
-
-
-
-# For web applications and APIs
-streamlit==1.5.0  # The fastest way to create and share data apps, 用于创建Web应用
-
-requests==2.27.1  # HTTP library for Human Beings, 用于发送HTTP请求
-
-
-
-# Your specific dependency
-pywin32==308  # Windows extensions for Python, 如果你确实需要这个库的话
+beautifulsoup4==4.12.3
+jieba==0.42.1
+numpy==2.2.1
+Pillow==11.0.0
+pyecharts==2.0.7
+Requests==2.32.3
+streamlit==1.41.1
+streamlit_echarts==0.4.0
